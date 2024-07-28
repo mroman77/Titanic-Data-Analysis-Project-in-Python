@@ -3,8 +3,7 @@ import pandas as pd
 
 file = pd.read_csv('File Path')
 
-i = True
-while i == True:
+while True:
     def survived():
         file.Survived.value_counts().plot(kind="barh")
         plt.title("Titanic")
